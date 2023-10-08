@@ -1,0 +1,101 @@
+/* reset css */
+*{
+    padding:0 ;
+    margin: 0;
+    font-size: 12px;
+    color: #000;
+    font-family: tahoma, Arial, sans-serif;
+}
+#header{
+    height: 54px ;
+    background:  #eeeeee;
+    border-left: #8b0000 solid 2px  ;
+    border-bottom: #8b0000 solid 1px  ;
+}
+#nav{
+    display: inline-block;
+}
+#nav, .subnav{
+    list-style: none;
+}
+#nav >  li {
+    display: inline-block;
+}
+#nav li{
+    position: relative;
+}
+#nav li a{
+    text-decoration: none;
+    line-height: 54px;
+    padding: 0 16px ;
+    /* hover hoan toan the */
+    display: inline-block;
+}
+#nav > li:hover .subnav{
+    display: block;
+}
+#nav .subnav li a:hover ,
+#nav > li > a:hover{
+    color: #ffffff;
+    background : #8b0000 ;
+}
+#nav .subnav {
+    display: none ;
+    position: absolute;
+    background-color: #eeeeee;
+    margin-top: 1px;
+}
+#nav .subnav a {
+    width: 100px;
+}
+/* begin form1 */
+.form1{
+    width: 500px;
+    height: auto;
+    padding:0 32px;
+    margin-top: 100px;
+    background-color: #ffffff;
+    border: 10px solid lightblue;
+}
+.form1 .form_header{
+    text-align: center; 
+    font-size: 30px; 
+    padding : 15px;
+}
+.form1 .form_form{
+    font-size: 10px;
+}
+.form1 .form_form .form_group{
+    padding :10px;
+}   
+.form1 .form_group{
+    width: auto;
+    height: auto;
+    padding : 10px;
+    margin: 10px;
+    background-color: aliceblue;
+    border-radius: 4px;
+}
+.form1 .form_input{
+    width: 100%;
+    border:none;
+    background-color: aliceblue;
+}
+.form1 .side{
+    display: inline-block;
+    margin-right: 10px;
+}    
+.form_button{
+   background-color: #000;
+   color:#ffffff;
+   width: 90%;
+   text-align: center;
+   padding:10px; 
+   border:none;
+   border-radius: 20px;
+}
+/* end form1 */
+
+
+
+
